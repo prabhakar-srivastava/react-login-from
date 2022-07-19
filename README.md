@@ -82,15 +82,15 @@ or
 ## SNAPSHOTS
 
 *login
-![img_info](./src/assets/Screenshot%202022-07-13%2004.10.37.png)
+![img_info](./regis/src/assets/Screenshot%202022-07-13%2004.10.37.png)
 
 
 *register*
-![img_info](./src/assets/Screenshot%202022-07-19%2020.21.49.png)
+![img_info](./regis/src/assets/Screenshot%202022-07-19%2020.21.49.png)
 
 
-*update*
-![img_info](./src/assets/Screenshot%202022-07-19%2020.22.28.png)
+*Profile*
+![img_info](./regis/src/assets/Screenshot%202022-07-19%2020.22.12.png)
 
-*login*
-![img_login](./src/assets/Screenshot%202022-07-19%2020.22.12.png)
+*Update*
+![img_login](./regis/src/assets/Screenshot%202022-07-19%2020.22.28.png)
