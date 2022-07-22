@@ -114,8 +114,17 @@ app.post("/api/Login", (req, res) => {
                 bcrypt.compare(password, result[0].password, (_error, response) => {
                     if (response) {
                         const jwt = sign({email : result[0].email},"difneijvneicosxmqw13212jn3c9en31")
-                        res.json(jwt)
-                        console.log(jwt);
+                        // res.json(jwt)
+                        console.log({
+                            loggedin :true,
+                            email :result[0].email,
+                            // jwt:jwt
+                        });
+                        res.json({
+                            loggedin :true,
+                            email :result[0].email,
+                            jwt:jwt
+                        });
                     } else {
                         res.send({ error: "Wrong username/password combination!" });
                     }
